@@ -1,0 +1,65 @@
+*{
+  margin:0;
+}
+
+.app{
+  background-color:#fafafa;
+  height:100%;
+}
+
+.app__posts{
+  padding:20px;
+  display:flex;
+  justify-content:center;
+}
+
+.app__postsRight{
+  margin-left:20px;
+}
+
+.app__header{
+  top:0;
+  z-index:1;
+  background-color:white;
+  padding-left:15px;
+  padding-right:15px;
+  border-bottom: 1px solid lightgray;
+  object-fit:contain; /*keeps aspect ratio*/
+  display:flex;
+  justify-content:space-between;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+
+.app__headerImage{
+  object-fit:contain;
+  margin-top:6px;
+}
+
+.app__signup{
+  display:flex;
+  flex-direction:column;
+}
+
+h5{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.addButton{
+  margin-top:6px;
+  transform: scale(1.4);
+  color: #828487;
+  cursor: pointer;
+  
+}
+
+.addButton:hover{
+  color: black;
+}
+
+.hidden {
+  display:none;
+}
+ 
