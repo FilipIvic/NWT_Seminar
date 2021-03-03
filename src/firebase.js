@@ -1,4 +1,4 @@
-import firebase from "firebase";
+import firebase from 'firebase'
 
 
 //firestore secret data
@@ -10,12 +10,12 @@ const firebaseApp = firebase.initializeApp({
     messagingSenderId: "948858218705",
     appId: "1:948858218705:web:9340fbbc582a7d17c3bdf0",
     measurementId: "G-556LHW0BQS"
-  });
+  })
 
-const db=firebaseApp.firestore();
-const auth=firebase.auth();
-const storage=firebase.storage();
+const db=firebaseApp.firestore()
+const auth=firebase.auth()
+const storage=firebase.storage()
 
-export {db, auth, storage};
+export {db, auth, storage}
 
  
